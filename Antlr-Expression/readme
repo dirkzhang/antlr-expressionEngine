@@ -1,0 +1,23 @@
+author:dirkzhang 张博
+
+expression engine using antlr
+
+param form is [xxx]
+allowing expression:
+[a]+[b]>[c]*([d]+[e])
+sum([a])
+
+
+DirkExp.g is the lexer and parser of antlr
+
+
+src
+   --expression
+	 --bean 
+	 --visitor
+	 DirkExpLexer
+	 DirkExpParser
+	 DirkExpTest
+	 ExpressionHelper
+	 SQLWriter
+	 
